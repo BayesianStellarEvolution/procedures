@@ -15,6 +15,9 @@ create project
     template projectName/.gitignore
     $ git -C projectName add .
     $ git -C projectName commit -m "Initialize with .gitignore"
+    create github repository
+    $ git -C projectName remote add origin git@github.com:<<<projectName URL>>>.git
+    $ git -C projectName push -u origin master
 
 
 work with this document
