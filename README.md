@@ -8,7 +8,7 @@ create kanban board
 
     create project
     $ mkdir projectName/pm
-    template projectName/pm/projectName.org
+    template projectName/pm.org
 
 
 create project
