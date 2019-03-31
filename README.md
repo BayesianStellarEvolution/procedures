@@ -28,6 +28,12 @@ create github repository
     tbd || delete
 
 
+add a reference to a document on arXiv
+    $ mkdir -p toplevel_dir/publishedYear/publishedMonth/
+    $ cd toplevel_dir/publishedYear/publishedMonth/
+    template references/README.md
+
+
 work with this document
 
     Step name is not indented
