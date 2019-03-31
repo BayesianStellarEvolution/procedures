@@ -14,13 +14,19 @@ create kanban board
 create project
 
     $ mkdir projectName
-    $ git init projectName
+    $ cd projectName
+    $ git init
     template projectName/.gitignore
-    $ git -C projectName add .
-    $ git -C projectName commit -m "Initialize with .gitignore"
+    $ git add .
+    $ git commit -m "Initialize with .gitignore"
     create github repository
-    $ git -C projectName remote add origin git@github.com:<<<projectName URL>>>.git
-    $ git -C projectName push -u origin master
+    $ git remote add origin git@github.com:<<<projectName URL>>>.git
+    $ git push -u origin master
+
+
+create github repository
+
+    tbd || delete
 
 
 work with this document
