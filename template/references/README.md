@@ -8,6 +8,6 @@
 
 ## Links
 
-Publisher's entry: [Link]()]
+ADS entry: [Link]()]
 
 Direct link to PDF: [Link]()
