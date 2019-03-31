@@ -8,8 +8,6 @@
 
 ## Links
 
-Publisher's entry: [Link]()
-
-arXiv entry: [Link]()
+Publisher's entry: [Link]()]
 
 Direct link to PDF: [Link]()

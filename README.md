@@ -31,10 +31,12 @@ create github repository
     tbd || delete
 
 
-add a reference to a document on arXiv
+add a reference to a document
     $ mkdir -p toplevel_dir/publishedYear/publishedMonth/
     $ cd toplevel_dir/publishedYear/publishedMonth/
     template references/README.md
+    
+    function F() { mkdir -p $1/$2/; cp ../../procedures/template/references/README.md $1/$2/; }
 
 
 work with this document
