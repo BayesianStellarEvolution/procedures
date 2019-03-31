@@ -7,7 +7,6 @@ record feature ideas for future implementation or dismissal
 create kanban board
 
     create project
-    $ mkdir projectName/pm
     template projectName/pm.org
 
 
