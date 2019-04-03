@@ -1,6 +1,5 @@
 # I want to...
 
-
 record feature ideas for future implementation or dismissal
 
     create kanban board
@@ -32,6 +31,7 @@ create github repository
 
 
 add a reference to a document
+
     $ mkdir -p toplevel_dir/publishedYear/publishedMonth/
     $ cd toplevel_dir/publishedYear/publishedMonth/
     template references/README.md
@@ -40,6 +40,7 @@ add a reference to a document
 
 
 add a new module in src/
+
     $ echo "module Path.To.Module where" > Path/To/Module.hs
     add `Path.To.Module` to package.yaml > library > exposed-modules
     
