@@ -39,6 +39,11 @@ add a reference to a document
     function F() { mkdir -p $1/$2/; cp ../../procedures/template/references/README.md $1/$2/; }
 
 
+add a new module in src/
+    $ echo "module Path.To.Module where" > Path/To/Module.hs
+    add `Path.To.Module` to package.yaml > library > exposed-modules
+    
+
 work with this document
 
     Step name is not indented
