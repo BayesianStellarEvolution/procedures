@@ -37,8 +37,9 @@ add a reference to a document
 create haskell package
 
     create project
+    template projectName/packageName/
     $ mkdir -p ______
-    template projectName/stack.yaml
+    template projectName/
     TODO: Finish this. Include creation of packageName/ containng package.yaml, src/, packageName/, test/, and the required files to start a haskell package 
 
 
@@ -46,6 +47,7 @@ add a new module in src/
 
     $ echo "module Path.To.Module where" > Path/To/Module.hs
     add `Path.To.Module` to package.yaml > library > exposed-modules
+    template projectName/packageName/test/Module.hs
     
 
 work with this document
