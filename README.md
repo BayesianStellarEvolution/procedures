@@ -25,11 +25,6 @@ create project
     $ git push -u origin master
 
 
-create github repository
-
-    tbd || delete
-
-
 add a reference to a document
 
     $ mkdir -p toplevel_dir/publishedYear/publishedMonth/
