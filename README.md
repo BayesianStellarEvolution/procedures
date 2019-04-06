@@ -39,6 +39,13 @@ add a reference to a document
     function F() { mkdir -p $1/$2/; cp ../../procedures/template/references/README.md $1/$2/; }
 
 
+create haskell package
+
+    create project
+    $ mkdir -p ______
+    template projectName/stack.yaml
+    TODO: Finish this. Include creation of packageName/ containng package.yaml, src/, packageName/, test/, and the required files to start a haskell package 
+
 add a new module in src/
 
     $ echo "module Path.To.Module where" > Path/To/Module.hs
