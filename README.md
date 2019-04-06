@@ -41,6 +41,7 @@ create haskell package
     template projectName/stack.yaml
     TODO: Finish this. Include creation of packageName/ containng package.yaml, src/, packageName/, test/, and the required files to start a haskell package 
 
+
 add a new module in src/
 
     $ echo "module Path.To.Module where" > Path/To/Module.hs
