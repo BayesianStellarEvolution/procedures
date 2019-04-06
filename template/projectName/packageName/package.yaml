@@ -1,0 +1,53 @@
+name: BayesianStellarEvolution-PackageName
+category: application
+author: Elliot Robinson
+maintainer: elliot.robinson@rgoptech.com
+copyright: '2019'
+# license:
+github: BayesianStellarEvolution/BayesianStellarEvolution
+
+default-extensions:
+  - OverloadedStrings
+  - BangPatterns
+
+ghc-options:
+  - -Wall
+  
+library:
+  source-dirs: src
+  exposed-modules:
+    Module
+dependencies:
+    - base >=4.10 && <5
+
+executables:
+  programName:
+    main: Main.hs
+    source-dirs: programName
+    dependencies:
+      - base
+      - BayesianStellarEvolution
+      - Chart
+      - Chart-cairo
+    when:
+    - condition: os(windows)
+      buildable: false
+
+tests:
+  library-tests:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - base
+      - BayesianStellarEvolution
+      - attoparsec
+      - bytestring
+      - conduit
+      - hspec
+      - QuickCheck
+      - raw-strings-qq
+      - vector
