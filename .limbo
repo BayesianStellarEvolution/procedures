@@ -1,1 +1,1 @@
-:
+limbo_procedures() { pushd template/projectName &>/dev/null ; stack build --fast --silent --test --no-run-tests; RET=$?; popd &>/dev/null; return $RET;} ; limbo_procedures;

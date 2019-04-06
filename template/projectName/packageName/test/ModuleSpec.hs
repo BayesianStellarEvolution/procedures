@@ -1,4 +1,4 @@
-module OptionsSpec (main, spec) where
+module ModuleSpec (main, spec) where
 
 import Test.Hspec
 
