@@ -48,6 +48,16 @@ add a new module in src/
     template projectName/packageName/test/Module.hs
     
 
+add a new executable to a project
+
+    echo -e "module Main where\n\nmain :: IO ()\nmain = undefined" >> Path/To/executableName/Main.hs
+    add to package.yaml > executables
+        executableName:
+          main: Main.hs
+          source-dirs: executableName
+          dependencies:
+            - base
+
 work with this document
 
     Step name is not indented
